@@ -1,0 +1,318 @@
+.page_container {
+  max-width: 1920px;
+  min-width: 1200px;
+  display: flex;
+  .cotent_wrap {
+    padding: 60px;
+    min-width: 1000px;
+    max-width: 1200px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    box-sizing: border-box;
+    .page_title_wrap {
+      position: relative;
+      .page_title {
+        color: #292929;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+        overflow: hidden;
+      }
+      .page_btn {
+        display: block;
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        right: 0;
+        background-color: rgba(83, 35, 255, 0.5);
+        height: 40px;
+        padding: 0 20px;
+        line-height: 40px;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: all 0.2s linear;
+        &:hover {
+          background-color: rgba(83, 35, 255, 1);
+          color: #fff;
+        }
+      }
+    }
+    .sections {
+      margin-top: 60px;
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+
+      .inner {
+        padding: 0 0 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+      }
+
+      /* intro box 영역 */
+      .intro_box {
+        border-radius: 10px;
+        padding: 30px;
+        background-color: #f7f7f7;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.14px;
+
+        .intro_tite {
+          margin-bottom: 10px;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 1.7;
+          color: #292929;
+          letter-spacing: -0.2px;
+        }
+
+        .intro_text {
+          color: #595959;
+        }
+
+        .intro_notice {
+          color: #999;
+        }
+      }
+
+      /* section_title : 소타이틀 */
+      .section_title {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        font-weight: 400;
+        span {
+          display: inline-block;
+          padding: 0 30px;
+          background-color: #f7f7f7;
+          color: #595959;
+          height: 40px;
+          line-height: 40px;
+          font-size: 16px;
+          margin-right: 12px;
+          border-radius: 8px;
+        }
+      }
+
+      .main_description {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.3;
+        color: #595959;
+        letter-spacing: -0.12px;
+        .blue {
+          color: #5323ff;
+        }
+      }
+
+      .sub_description {
+        padding-left: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #595959;
+        letter-spacing: -0.32px;
+        .blue {
+          color: #5323ff;
+        }
+      }
+    }
+    .image_area {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 24px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page_container {
+    max-width: 1024px;
+    min-width: 750px;
+    .cotent_wrap {
+      padding: 40px;
+      min-width: 700px;
+      max-width: 800px;
+      .page_title_wrap {
+        .page_title {
+          font-size: 32px;
+        }
+        .page_btn {
+          height: 32px;
+          padding: 0 16px;
+          line-height: 32px;
+          font-size: 12px;
+          border-radius: 4px;
+        }
+      }
+      .sections {
+        margin-top: 40px;
+        padding-bottom: 60px;
+        gap: 40px;
+
+        .inner {
+          padding: 0 0 40px;
+          gap: 40px;
+        }
+
+        /* intro box 영역 */
+        .intro_box {
+          border-radius: 8px;
+          padding: 28px;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: -0.2px;
+
+          .intro_tite {
+            margin-bottom: 8px;
+          }
+
+          .intro_text {
+            color: #595959;
+          }
+
+          .intro_notice {
+            color: #999;
+          }
+        }
+
+        /* section_title : 소타이틀 */
+        .section_title {
+          span {
+            border-radius: 4px;
+          }
+        }
+      }
+      .image_area {
+        gap: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .page_container {
+    flex-flow: column;
+    min-width: 375px;
+    max-width: 750px;
+    overflow: hidden;
+    .cotent_wrap {
+      box-sizing: border-box;
+      padding: 60px 40px;
+      min-width: 375px;
+      max-width: 750px;
+      .sections {
+        padding-bottom: 120px;
+
+        /* section_title : 소타이틀 */
+        .section_title {
+          gap: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .page_container {
+    min-width: 350px;
+    max-width: 500px;
+    overflow: hidden;
+    .cotent_wrap {
+      box-sizing: border-box;
+      padding: 40px 20px;
+      min-width: 350px;
+      max-width: 500px;
+      .page_title_wrap {
+        position: relative;
+        .page_title {
+          font-size: 20px;
+        }
+        .page_btn {
+          display: block;
+          position: relative;
+          background-color: rgba(83, 35, 255, 0.5);
+          font-size: 14px;
+          border-radius: 4px;
+        }
+      }
+      .sections {
+        margin-top: 40px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .inner {
+          padding: 0 0 60px;
+          gap: 40px;
+        }
+
+        /* intro box 영역 */
+        .intro_box {
+          border-radius: 8px;
+          padding: 10px;
+          font-size: 14px;
+
+          .intro_text {
+            color: #595959;
+          }
+
+          .intro_notice {
+            color: #999;
+          }
+        }
+
+        /* section_title : 소타이틀 */
+        .section_title {
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+          font-weight: 400;
+          span {
+            display: inline-block;
+            padding: 0 20px;
+            background-color: #f7f7f7;
+            color: #595959;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            margin-right: 0;
+            border-radius: 4px;
+          }
+        }
+
+        .main_description {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 1.3;
+          color: #595959;
+          letter-spacing: -0.12px;
+        }
+
+        .sub_description {
+          padding-left: 10px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #595959;
+          letter-spacing: -0.32px;
+        }
+      }
+    }
+  }
+}

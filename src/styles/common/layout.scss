@@ -1,0 +1,76 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+@font-face {
+  font-family: 'SF_HambakSnow';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareNeo';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf)
+      format('truetype');
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* common */
+.layout_container {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+    'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+
+  .layout_header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+  .layout_main {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .layout_container {
+    max-width: 1024px;
+    min-width: 750px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .layout_container {
+    max-width: 750px;
+    min-width: 375px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .layout_container {
+    max-width: 500px;
+    min-width: 350px;
+    overflow: hidden;
+  }
+}

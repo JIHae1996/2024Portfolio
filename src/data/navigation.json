@@ -1,0 +1,36 @@
+[
+  {
+    "id": "01",
+    "categories": [
+      {
+        "pagenumber": "01",
+        "name": "UI development",
+        "icon": "nav02_off",
+        "depth": ["Hottracks"]
+      },
+      {
+        "pagenumber": "02",
+        "name": "Event Publishing",
+        "icon": "nav06_off",
+        "depth": ["AllstarEvent", "BusinessEvent"]
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "categories": [
+      {
+        "pagenumber": "03",
+        "name": "UI Design",
+        "icon": "nav05_off",
+        "depth": ["GalaxyThemes", "OtherDesign"]
+      },
+      {
+        "pagenumber": "04",
+        "name": "Graphic Arts",
+        "icon": "nav03_off",
+        "depth": ["GraphicArts"]
+      }
+    ]
+  }
+]
