@@ -97,15 +97,18 @@ function Main() {
           </Canvas>
         </div>
         <div className="intro_text_area">
-          <strong>JiHae</strong>
+          <strong>Web Publisher</strong>
           <p className="intro_txt">
-            좋아해도 <span>지해</span> 롭게
+            마크업 개발 &amp;
+            <br />
+            인터랙션 <span>퍼블리셔</span>
           </p>
           <p className="dis_txt">
-            안녕하세요! 좋아하는 분야가 너무 많은 '지해' 입니다.
+            안녕하세요! 이벤트 퍼블리싱과 UI개발 업무를 하고 있는{' '}
+            <span>이지해</span> 입니다.
             <br />
             <br /> 2021년도부터 2022년도까지는 스타트업에서 디자이너로,
-            <br /> 2023년도 부터 현재까지 교보문고 크로스플랫폼팀 퍼블리셔로
+            <br /> 2023년도 1월 부터 현재까지 교보문고 크로스플랫폼팀 퍼블리셔로
             <br />
             근무하고 있습니다.
           </p>

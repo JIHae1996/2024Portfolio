@@ -30,9 +30,8 @@
 
     strong {
       display: block;
-      font-size: 250px;
-      font-weight: 600;
-      letter-spacing: -10px;
+      font-size: 80px;
+      letter-spacing: -1px;
       color: #5323ff;
       font-family: 'SF_HambakSnow';
       animation: slideup 0.8s ease forwards;
@@ -40,7 +39,8 @@
     .intro_txt {
       margin-top: 30px;
       font-size: 40px;
-      font-family: 'ghanachoco';
+      font-family: 'Roboto';
+      font-weight: 500;
       color: #292929;
       opacity: 0;
       animation: slideup 0.8s 0.4s ease forwards;
@@ -70,6 +70,11 @@
       color: #292929;
       line-height: 1.8;
       font-family: 'NanumSquareNeo';
+
+      span {
+        font-weight: 900;
+        color: #5323ff;
+      }
     }
   }
   .contects {
@@ -109,7 +114,7 @@
 
       strong {
         display: block;
-        font-size: 200px;
+        font-size: 80px;
       }
       .intro_txt {
         margin-top: 28px;
@@ -129,11 +134,11 @@
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .main_container {
     .intro_text_area {
-      top: 4vw;
+      top: 10vw;
 
       strong {
         display: block;
-        font-size: 120px;
+        font-size: 60px;
       }
       .intro_txt {
         margin-top: 20px;

@@ -8,6 +8,7 @@ import Hottracks from './routes/sub/01/Hottracks'
 
 import AllstarEvent from './routes/sub/02/AllstarEvent'
 import BusinessEvent from './routes/sub/02/BusinessEvent'
+import LibraryEvent from './routes/sub/02/LibraryEvent'
 
 import GalaxyThemes from './routes/sub/03/GalaxyThemes'
 import OtherDesign from './routes/sub/03/OtherDesign'
@@ -23,6 +24,7 @@ function AppRouter() {
 
           <Route path="AllstarEvent" element={<AllstarEvent />} />
           <Route path="BusinessEvent" element={<BusinessEvent />} />
+          <Route path="LibraryEvent" element={<LibraryEvent />} />
 
           <Route path="GalaxyThemes" element={<GalaxyThemes />} />
           <Route path="OtherDesign" element={<OtherDesign />} />

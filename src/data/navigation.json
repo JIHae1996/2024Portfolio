@@ -12,7 +12,7 @@
         "pagenumber": "02",
         "name": "Event Publishing",
         "icon": "nav06_off",
-        "depth": ["AllstarEvent", "BusinessEvent"]
+        "depth": ["AllstarEvent", "BusinessEvent", "LibraryEvent"]
       }
     ]
   },
