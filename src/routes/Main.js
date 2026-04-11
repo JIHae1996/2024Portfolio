@@ -1,8 +1,8 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import '../styles/pages/main.scss'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Sphere, Plane } from '@react-three/drei'
-import BlobMaterial from '../assets/BlobMaterial' // BlobMaterial 파일을 import
+// import BlobMaterial from '../assets/BlobMaterial'
 
 import txt_ani from '../assets/txt_ani.png'
 
@@ -92,7 +92,6 @@ function Main() {
               shadow-camera-near={1}
               shadow-camera-far={100}
             />
-            <Blob />
             <Wave />
           </Canvas>
         </div>
@@ -104,13 +103,16 @@ function Main() {
             인터랙션 <span>퍼블리셔</span>
           </p>
           <p className="dis_txt">
-            안녕하세요! 이벤트 퍼블리싱과 UI개발 업무를 하고 있는{' '}
-            <span>이지해</span> 입니다.
+            안녕하세요! 이벤트 퍼블리싱과 UI 개발을 담당하고 있는{' '}
+            <span>이지해</span>입니다.
             <br />
-            <br /> 2021년도부터 2022년도까지는 스타트업에서 디자이너로,
-            <br /> 2023년도 1월 부터 현재까지 교보문고 크로스플랫폼팀 퍼블리셔로
             <br />
-            근무하고 있습니다.
+            2021년부터 2022년까지는 스타트업에서 디자이너로 근무하였고, 2023년
+            1월부터 2025년까지는 교보문고에서 퍼블리셔로 일했습니다.
+            <br />
+            <br />
+            2026년부터는 교보문고 온라인몰 개발팀에서 프론트엔드 개발자로 업무를
+            이어가고 있습니다.
           </p>
         </div>
         <div class="txtMotion05">

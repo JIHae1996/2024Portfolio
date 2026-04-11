@@ -3,6 +3,12 @@
     "id": "01",
     "categories": [
       {
+        "pagenumber": "00",
+        "name": "FE development",
+        "icon": "nav02_off",
+        "depth": ["CompanyPage"]
+      },
+      {
         "pagenumber": "01",
         "name": "UI development",
         "icon": "nav02_off",
@@ -23,7 +29,7 @@
         "pagenumber": "03",
         "name": "UI Design",
         "icon": "nav05_off",
-        "depth": ["GalaxyThemes", "OtherDesign"]
+        "depth": ["IllustrationFair", "GalaxyThemes", "OtherDesign"]
       },
       {
         "pagenumber": "04",

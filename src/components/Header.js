@@ -42,7 +42,7 @@ function Header() {
     <div className="header_container">
       <div className="inner">
         <ul className="header_gnb">
-          <li>
+          <li className="header_gnb_logo">
             <Link to="/">
               <img src={Logo} alt="logo" />
             </Link>

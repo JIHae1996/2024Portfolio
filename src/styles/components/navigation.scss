@@ -137,6 +137,7 @@
         & > .cte {
           height: 40px;
           line-height: 40px;
+          padding: 0;
           span.navIcon {
             margin-right: 4px;
           }
@@ -155,22 +156,29 @@
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 500px) {
+@media screen and (min-width: 200px) and (max-width: 500px) {
   .nav_container {
-    padding: 10px 10px;
-    min-width: 350px;
+    padding: 10px 20px;
+    min-width: 200px;
     max-width: 500px;
-    height: 60px;
+    height: fit-content;
     box-sizing: border-box;
 
     nav {
-      margin-left: 10px;
-      justify-content: center;
-      gap: 10px;
+      margin-left: 0;
+      justify-content: start;
+      gap: 0;
+      flex-wrap: wrap;
     }
     ul {
       & > li.parent {
         font-size: 10px;
+        ul {
+          background-color: rgba(255, 255, 255, 0.8);
+        }
+        & > .cte {
+          padding: 0 10px 0 0;
+        }
       }
     }
   }

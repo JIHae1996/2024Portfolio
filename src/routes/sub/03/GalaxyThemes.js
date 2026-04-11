@@ -53,7 +53,7 @@ function GalaxyThemes() {
               <img src={subimage02} alt="images" />
             </div>
             <div className="main_description">
-              모든 페이지의 일러스는 컨셉 및 드로잉까지 직접 제작 하였습니다.
+              모든 페이지의 일러스트는 컨셉 및 드로잉까지 직접 제작 하였습니다.
               <br />
               <br />
               귀여운 요소의 10대 사용자의 니즈에 맞춰 감성적이고 부드러운 톤을
